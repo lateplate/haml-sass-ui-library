@@ -1,4 +1,4 @@
-/* line 1, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_placeholders.sass */
+/* line 1, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_placeholders.sass */
 legend, button::-moz-focus-inner,
 input::-moz-focus-inner, body, figure, button,
 input,
@@ -6,17 +6,13 @@ select,
 textarea {
   margin: 0; }
 
-/* line 4, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_placeholders.sass */
+/* line 4, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_placeholders.sass */
 legend, button::-moz-focus-inner,
 input::-moz-focus-inner, input[type="checkbox"],
 input[type="radio"] {
   padding: 0; }
 
-/* line 11, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_placeholders.sass */
-audio:not([controls]), [hidden] {
-  display: none; }
-
-/* line 1, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 1, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 article,
 aside,
 details,
@@ -31,117 +27,62 @@ section,
 summary {
   display: block; }
 
-/* line 15, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-audio,
-canvas,
-video {
-  display: inline-block; }
-
-/* line 20, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-audio:not([controls]) {
-  height: 0; }
-
-/* line 27, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 15, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 35, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 23, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 a:focus {
   outline: thin dotted; }
 
-/* line 38, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 26, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 a:active,
 a:hover {
   outline: 0; }
 
-/* line 42, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 30, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 h1 {
   font-size: 2em; }
 
-/* line 45, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-/* line 48, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 33, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 b,
 strong {
   font-weight: bold; }
 
-/* line 52, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-dfn {
-  font-style: italic; }
-
-/* line 55, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-mark {
-  background: yellow;
-  color: black; }
-
-/* line 59, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em; }
-
-/* line 66, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-pre {
-  white-space: pre-wrap; }
-
-/* line 69, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
-
-/* line 72, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-small {
-  font-size: 80%; }
-
-/* line 75, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-/* line 82, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-sup {
-  top: -0.5em; }
-
-/* line 85, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-sub {
-  bottom: -0.25em; }
-
-/* line 88, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 37, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 img {
   border: 0; }
 
-/* line 91, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-svg:not(:root) {
-  overflow: hidden; }
-
-/* line 97, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 43, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 105, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 51, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
+button {
+  width: 119px;
+  height: 33px;
+  text-align: center;
+  border: 1px solid #c2c2c4; }
+
+/* line 57, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 button,
 input,
 select,
 textarea {
+  border-radius: 5px;
   font-family: inherit;
   font-size: 100%; }
 
-/* line 113, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 66, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 button,
 input {
   line-height: normal; }
 
-/* line 117, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 70, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -149,34 +90,183 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 124, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 77, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/* line 128, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 81, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box; }
 
-/* line 133, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 86, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
-/* line 139, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 92, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 147, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
+/* line 100, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
 textarea {
   overflow: auto;
   vertical-align: top; }
 
-/* line 151, /Users/dankim/dropbox/web/starterleague/homework/preprocessor-framework/css/_normalize.sass */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+/* line 104, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_normalize.sass */
+section {
+  margin: 10px; }
+
+/* line 1, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.btn-save {
+  background: #f2f5f6;
+  background-image: -webkit-linear-gradient(top, #f2f5f6, #b6c7cc);
+  background-image: -moz-linear-gradient(top, #f2f5f6, #b6c7cc);
+  background-image: -ms-linear-gradient(top, #f2f5f6, #b6c7cc);
+  background-image: -o-linear-gradient(top, #f2f5f6, #b6c7cc);
+  background-image: linear-gradient(top, #f2f5f6, #b6c7cc);
+  color: black; }
+  /* line 6, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-save:hover {
+    background: #d4dee1;
+    background-image: -webkit-linear-gradient(top, #d4dee1, #98afb7);
+    background-image: -moz-linear-gradient(top, #d4dee1, #98afb7);
+    background-image: -ms-linear-gradient(top, #d4dee1, #98afb7);
+    background-image: -o-linear-gradient(top, #d4dee1, #98afb7);
+    background-image: linear-gradient(top, #d4dee1, #98afb7);
+    color: black; }
+  /* line 9, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-save:active {
+    background: #d4dee1;
+    background-image: -webkit-linear-gradient(bottom, #d4dee1, #98afb7);
+    background-image: -moz-linear-gradient(bottom, #d4dee1, #98afb7);
+    background-image: -ms-linear-gradient(bottom, #d4dee1, #98afb7);
+    background-image: -o-linear-gradient(bottom, #d4dee1, #98afb7);
+    background-image: linear-gradient(bottom, #d4dee1, #98afb7);
+    color: white; }
+
+/* line 4, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.btn-send {
+  background: #94a0ac;
+  background-image: -webkit-linear-gradient(top, #94a0ac, #5f6d7b);
+  background-image: -moz-linear-gradient(top, #94a0ac, #5f6d7b);
+  background-image: -ms-linear-gradient(top, #94a0ac, #5f6d7b);
+  background-image: -o-linear-gradient(top, #94a0ac, #5f6d7b);
+  background-image: linear-gradient(top, #94a0ac, #5f6d7b);
+  color: white; }
+  /* line 6, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-send:hover {
+    background: #778696;
+    background-image: -webkit-linear-gradient(top, #778696, #49535e);
+    background-image: -moz-linear-gradient(top, #778696, #49535e);
+    background-image: -ms-linear-gradient(top, #778696, #49535e);
+    background-image: -o-linear-gradient(top, #778696, #49535e);
+    background-image: linear-gradient(top, #778696, #49535e);
+    color: white; }
+  /* line 9, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-send:active {
+    background: #778696;
+    background-image: -webkit-linear-gradient(bottom, #778696, #49535e);
+    background-image: -moz-linear-gradient(bottom, #778696, #49535e);
+    background-image: -ms-linear-gradient(bottom, #778696, #49535e);
+    background-image: -o-linear-gradient(bottom, #778696, #49535e);
+    background-image: linear-gradient(bottom, #778696, #49535e);
+    color: white; }
+
+/* line 7, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.btn-update {
+  background: #5096d4;
+  background-image: -webkit-linear-gradient(top, #5096d4, #256299);
+  background-image: -moz-linear-gradient(top, #5096d4, #256299);
+  background-image: -ms-linear-gradient(top, #5096d4, #256299);
+  background-image: -o-linear-gradient(top, #5096d4, #256299);
+  background-image: linear-gradient(top, #5096d4, #256299);
+  color: white; }
+  /* line 6, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-update:hover {
+    background: #307dc1;
+    background-image: -webkit-linear-gradient(top, #307dc1, #1b4870);
+    background-image: -moz-linear-gradient(top, #307dc1, #1b4870);
+    background-image: -ms-linear-gradient(top, #307dc1, #1b4870);
+    background-image: -o-linear-gradient(top, #307dc1, #1b4870);
+    background-image: linear-gradient(top, #307dc1, #1b4870);
+    color: white; }
+  /* line 9, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-update:active {
+    background: #307dc1;
+    background-image: -webkit-linear-gradient(bottom, #307dc1, #1b4870);
+    background-image: -moz-linear-gradient(bottom, #307dc1, #1b4870);
+    background-image: -ms-linear-gradient(bottom, #307dc1, #1b4870);
+    background-image: -o-linear-gradient(bottom, #307dc1, #1b4870);
+    background-image: linear-gradient(bottom, #307dc1, #1b4870);
+    color: white; }
+
+/* line 10, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.btn-download {
+  background: #80b45f;
+  background-image: -webkit-linear-gradient(top, #80b45f, #507637);
+  background-image: -moz-linear-gradient(top, #80b45f, #507637);
+  background-image: -ms-linear-gradient(top, #80b45f, #507637);
+  background-image: -o-linear-gradient(top, #80b45f, #507637);
+  background-image: linear-gradient(top, #80b45f, #507637);
+  color: white; }
+  /* line 6, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-download:hover {
+    background: #679947;
+    background-image: -webkit-linear-gradient(top, #679947, #385327);
+    background-image: -moz-linear-gradient(top, #679947, #385327);
+    background-image: -ms-linear-gradient(top, #679947, #385327);
+    background-image: -o-linear-gradient(top, #679947, #385327);
+    background-image: linear-gradient(top, #679947, #385327);
+    color: white; }
+  /* line 9, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-download:active {
+    background: #679947;
+    background-image: -webkit-linear-gradient(bottom, #679947, #385327);
+    background-image: -moz-linear-gradient(bottom, #679947, #385327);
+    background-image: -ms-linear-gradient(bottom, #679947, #385327);
+    background-image: -o-linear-gradient(bottom, #679947, #385327);
+    background-image: linear-gradient(bottom, #679947, #385327);
+    color: white; }
+
+/* line 13, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.btn-delete {
+  background: #b44041;
+  background-image: -webkit-linear-gradient(top, #b44041, #692526);
+  background-image: -moz-linear-gradient(top, #b44041, #692526);
+  background-image: -ms-linear-gradient(top, #b44041, #692526);
+  background-image: -o-linear-gradient(top, #b44041, #692526);
+  background-image: linear-gradient(top, #b44041, #692526);
+  color: white; }
+  /* line 6, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-delete:hover {
+    background: #8e3333;
+    background-image: -webkit-linear-gradient(top, #8e3333, #431818);
+    background-image: -moz-linear-gradient(top, #8e3333, #431818);
+    background-image: -ms-linear-gradient(top, #8e3333, #431818);
+    background-image: -o-linear-gradient(top, #8e3333, #431818);
+    background-image: linear-gradient(top, #8e3333, #431818);
+    color: white; }
+  /* line 9, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_mixins.sass */
+  .btn-delete:active {
+    background: #8e3333;
+    background-image: -webkit-linear-gradient(bottom, #8e3333, #431818);
+    background-image: -moz-linear-gradient(bottom, #8e3333, #431818);
+    background-image: -ms-linear-gradient(bottom, #8e3333, #431818);
+    background-image: -o-linear-gradient(bottom, #8e3333, #431818);
+    background-image: linear-gradient(bottom, #8e3333, #431818);
+    color: white; }
+
+/* line 16, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.error {
+  color: #b44041;
+  background: #efd1d2; }
+
+/* line 19, /Users/dankim/dropbox/web/starterleague/homework/haml-sass-ui-library/css/_main.sass */
+.success {
+  color: #80b45f;
+  background: #eef5ea; }

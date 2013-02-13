@@ -1,0 +1,30 @@
+// Sets all the colors and gradients to style the buttons, using
+// some text color defaults
+@mixin btn($background, $text: white, $hover-text: white, $active-text: white)
+  +linear-gradient(top, $background)
+  color: $text
+  &:hover
+    +linear-gradient(top, $background, $base-darken) // gradient starts from top, $base-darken in _variables
+    color: $hover-text
+  &:active
+    +linear-gradient(bottom, $background, $base-darken) // same darkness as hover, but reversed to start from bottom
+    color: $active-text
+
+// Outputs all the gradient styles based on starting position, base color, and 
+// how much to darken the base color. Darkening the base color is useful for 
+// taking a normal state and create hover and active states on buttons.
+@mixin linear-gradient($position, $color, $darken-amount: 0%)
+  $background: darken($color, $darken-amount)
+  $start: $background
+  $end: darken($start, $gradient-stop) // regardless of what we darken the base, the end of the gradient is always a % darker than the start color
+
+  background: $background
+  background-image: -webkit-linear-gradient($position, $start, $end)
+  background-image: -moz-linear-gradient($position, $start, $end)
+  background-image: -ms-linear-gradient($position, $start, $end)
+  background-image: -o-linear-gradient($position, $start, $end)
+  background-image: linear-gradient($position, $start, $end)
+
+@mixin alert-state($color)
+  color: $color
+  background: lighten($color, $alert-lighten)

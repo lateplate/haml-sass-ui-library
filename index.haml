@@ -1,9 +1,21 @@
 !!! 5
 %head
-  %title dankim-preprocessor-base
+  %title HAML + Sass UI Library
   %meta{charset: "UTF-8"}
   %link{href: "css/styles.css", media: "screen", rel: "stylesheet", type: "text/css"}
 %body
-  .container
-    Hello World!
-    
+  %section
+    %button.btn-save
+      Save
+    %button.btn-send
+      Send
+    %button.btn-update
+      Update
+    %button.btn-download
+      Download
+    %button.btn-delete
+      Delete
+  %section
+    %input{type: "text", value: "Text Input"}
+    %input.error{type: "text", value: "Error"} 
+    %input.success{type: "text", value: "Success"} 
